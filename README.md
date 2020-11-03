@@ -1,11 +1,25 @@
 # BSL Application CLI Library
 
-A library for adding CLI interfaces to applications in the brightSPARK Labs style.
+A simple orchestration wrapper for Docker applications in the brightSPARK Labs style.
 
 ## Overview
 
-This library can be leveraged to add a standardised CLI capability to applications to handle system
-lifecycle events (start, stop, configure, migrate, etc).
+`appcli` manages the configuration of your application by volume-mounting templated
+files into individual docker containers. These are templated from your own template
+files, and populated using variables in an `appcli`-managed `settings.yml` file.
+
+`appcli` adds standardised CLI capability to applications to handle system lifecycle
+events such as start, stop, configure, upgrade, etc.
+
+## Quickstart
+
+At a minimum, your application must:
+
+- be runnable with one of our supported orchestrators (currently `docker-compose` or docker swarm)
+
+For all examples provided, we assume `docker-compose` is being used.
+
+# TODO: Fix down below
 
 The CLI is designed to run within a Docker container and launch other Docker containers (i.e.
 Docker-in-Docker). This is generally managed via a `docker-compose.yml` file.
