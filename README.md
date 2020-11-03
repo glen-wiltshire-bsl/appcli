@@ -19,7 +19,8 @@ At a minimum, your application must:
 
 For all examples provided, we assume `docker-compose` is being used.
 
-# TODO: Fix down below
+TODO: Anything below this point needs rework on this git branch. Likely lots of sections will be
+moved into separate markdown files in `docs/` and we'll link to them as need.
 
 The CLI is designed to run within a Docker container and launch other Docker containers (i.e.
 Docker-in-Docker). This is generally managed via a `docker-compose.yml` file.
