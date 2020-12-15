@@ -14,10 +14,10 @@ www.brightsparklabs.com
 # standard library
 
 # vendor libraries
-from appcli.commands.appcli_command import AppcliCommand
 import click
 
 # local libraries
+from appcli.commands.appcli_command import AppcliCommand
 from appcli.configuration_manager import ConfigurationManager
 from appcli.logger import logger
 from appcli.models.cli_context import CliContext

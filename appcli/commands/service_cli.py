@@ -10,7 +10,6 @@ www.brightsparklabs.com
 """
 
 # standard libraries
-from appcli.commands.appcli_command import AppcliCommand
 import sys
 
 # vendor libraries
@@ -18,6 +17,7 @@ import click
 from click.core import Context
 
 # local libraries
+from appcli.commands.appcli_command import AppcliCommand
 from appcli.logger import logger
 from appcli.models.cli_context import CliContext
 from appcli.models.configuration import Configuration

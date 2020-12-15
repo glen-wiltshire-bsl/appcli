@@ -9,7 +9,6 @@ Created by brightSPARK Labs
 www.brightsparklabs.com
 """
 
-from appcli.commands.appcli_command import AppcliCommand
 import os
 import sys
 
@@ -23,6 +22,7 @@ from typing import Iterable, List
 import click
 
 # local libraries
+from appcli.commands.appcli_command import AppcliCommand
 from appcli.crypto import crypto
 from appcli.logger import logger
 from appcli.models.cli_context import CliContext

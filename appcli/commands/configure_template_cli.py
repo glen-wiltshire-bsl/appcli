@@ -10,7 +10,6 @@ www.brightsparklabs.com
 """
 
 # standard library
-from appcli.commands.appcli_command import AppcliCommand
 import difflib
 import filecmp
 import glob
@@ -22,6 +21,7 @@ from pathlib import Path
 import click
 
 # local libraries
+from appcli.commands.appcli_command import AppcliCommand
 from appcli.functions import error_and_exit
 from appcli.logger import logger
 from appcli.models.cli_context import CliContext

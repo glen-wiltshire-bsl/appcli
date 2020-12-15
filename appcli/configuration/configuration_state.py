@@ -10,18 +10,19 @@ www.brightsparklabs.com
 """
 
 # standard libraries
-from appcli.git_repositories.git_repositories import (
-    ConfigurationGitRepository,
-    GeneratedConfigurationGitRepository,
-)
 from pathlib import Path
 
 # vendor libraries
 
 # local libraries
-from appcli.functions import error_and_exit
-from appcli.logger import logger
 from appcli.commands.appcli_command import AppcliCommand
+from appcli.functions import error_and_exit
+from appcli.git_repositories.git_repositories import (
+    ConfigurationGitRepository,
+    GeneratedConfigurationGitRepository,
+)
+from appcli.logger import logger
+
 
 # ------------------------------------------------------------------------------
 # CLASSES

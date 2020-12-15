@@ -12,13 +12,13 @@ www.brightsparklabs.com
 """
 
 # standard library
-from appcli.commands.appcli_command import AppcliCommand
 from pathlib import Path
 
 # vendor libraries
 import click
 
 # local libraries
+from appcli.commands.appcli_command import AppcliCommand
 from appcli.crypto import crypto
 from appcli.crypto.cipher import Cipher
 from appcli.logger import logger

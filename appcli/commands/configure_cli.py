@@ -10,16 +10,15 @@ www.brightsparklabs.com
 """
 
 # standard library
-from appcli.commands.appcli_command import AppcliCommand
 import difflib
 import subprocess
 
 # vendor libraries
 import click
 
-from appcli.commands.configure_template_cli import ConfigureTemplateCli
-
 # local libraries
+from appcli.commands.appcli_command import AppcliCommand
+from appcli.commands.configure_template_cli import ConfigureTemplateCli
 from appcli.configuration_manager import ConfigurationManager
 from appcli.functions import print_header
 from appcli.logger import logger

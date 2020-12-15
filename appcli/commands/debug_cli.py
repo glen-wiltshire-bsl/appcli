@@ -10,16 +10,16 @@ www.brightsparklabs.com
 """
 
 # standard library
-from appcli.commands.appcli_command import AppcliCommand
-from appcli.variables_manager import VariablesManager
+from pprint import pprint
 
 # vendor libraries
 import click
 
 # local libraries
+from appcli.commands.appcli_command import AppcliCommand
 from appcli.models.cli_context import CliContext
 from appcli.models.configuration import Configuration
-from pprint import pprint
+from appcli.variables_manager import VariablesManager
 
 # ------------------------------------------------------------------------------
 # CLASSES

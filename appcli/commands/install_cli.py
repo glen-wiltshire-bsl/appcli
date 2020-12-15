@@ -15,7 +15,6 @@ www.brightsparklabs.com
 """
 
 # standard library
-from appcli.commands.appcli_command import AppcliCommand
 import importlib.resources as pkg_resources
 from pathlib import Path
 
@@ -25,6 +24,7 @@ from jinja2 import StrictUndefined, Template
 
 # local libraries
 from appcli import templates
+from appcli.commands.appcli_command import AppcliCommand
 from appcli.functions import error_and_exit
 from appcli.logger import logger
 from appcli.models.cli_context import CliContext
