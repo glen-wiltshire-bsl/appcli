@@ -94,6 +94,9 @@ class ConfigureCli:
         @click.pass_context
         def apply(ctx, message, force):
             cli_context: CliContext = ctx.obj
+
+            # We require the '--force' option to allow forcibly applying and
+            # overwriting existing modified generated configuration.
             cli_context.get_configuration_state().verify_command_allowed(
                 AppcliCommand.CONFIGURE_APPLY, force
             )
