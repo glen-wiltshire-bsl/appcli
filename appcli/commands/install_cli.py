@@ -15,7 +15,7 @@ www.brightsparklabs.com
 """
 
 # standard library
-from appcli.commands.commands import AppcliCommand
+from appcli.commands.appcli_command import AppcliCommand
 import importlib.resources as pkg_resources
 from pathlib import Path
 

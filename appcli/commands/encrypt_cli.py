@@ -12,7 +12,7 @@ www.brightsparklabs.com
 """
 
 # standard library
-from appcli.commands.commands import AppcliCommand
+from appcli.commands.appcli_command import AppcliCommand
 from pathlib import Path
 
 # vendor libraries

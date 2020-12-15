@@ -2,13 +2,14 @@
 # # -*- coding: utf-8 -*-
 
 # standard libraries
+from pathlib import Path
+from typing import Dict, Iterable, NamedTuple, Tuple
+
+# local libraries
 from appcli.configuration.configuration_state import (
     ConfigurationState,
     ConfigurationStateFactory,
 )
-from pathlib import Path
-from typing import Dict, Iterable, NamedTuple, Tuple
-
 from appcli.logger import logger
 
 

@@ -10,7 +10,7 @@ www.brightsparklabs.com
 """
 
 # standard libraries
-from appcli.commands.commands import AppcliCommand
+from appcli.commands.appcli_command import AppcliCommand
 import sys
 
 # vendor libraries

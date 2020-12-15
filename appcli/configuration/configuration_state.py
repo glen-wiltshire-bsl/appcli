@@ -21,7 +21,7 @@ from pathlib import Path
 # local libraries
 from appcli.functions import error_and_exit
 from appcli.logger import logger
-from appcli.commands.commands import AppcliCommand
+from appcli.commands.appcli_command import AppcliCommand
 
 # ------------------------------------------------------------------------------
 # CLASSES
