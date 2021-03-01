@@ -63,7 +63,7 @@ setup(
         "python-keycloak==0.22.0",
         "pycryptodome==3.9.8",
         "ruamel-yaml==0.16.10",
-        "tabulate==0.8.7",
+        "tabulate==0.8.9",
     ],
     extras_require={"dev": ["black", "flake8", "isort", "pytest"]},
 )
